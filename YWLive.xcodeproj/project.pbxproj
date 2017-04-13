@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F2B282FB1E9F5DCD002DF840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */; };
-		F2B282FD1E9F5DCD002DF840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B282FC1E9F5DCD002DF840 /* ViewController.swift */; };
 		F2B283001E9F5DCD002DF840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B282FE1E9F5DCD002DF840 /* Main.storyboard */; };
 		F2B283021E9F5DCD002DF840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B283011E9F5DCD002DF840 /* Assets.xcassets */; };
 		F2B283051E9F5DCD002DF840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */; };
 		F2B283101E9F5DCD002DF840 /* YWLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2830F1E9F5DCD002DF840 /* YWLiveUITests.swift */; };
+		F2B2833F1E9F6104002DF840 /* YWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2833E1E9F6104002DF840 /* YWBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +27,15 @@
 
 /* Begin PBXFileReference section */
 		F2B282F71E9F5DCD002DF840 /* YWLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2B282FC1E9F5DCD002DF840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		F2B282FF1E9F5DCD002DF840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2B283011E9F5DCD002DF840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B283011E9F5DCD002DF840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		F2B283041E9F5DCD002DF840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F2B283061E9F5DCD002DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B283061E9F5DCD002DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		F2B2830B1E9F5DCD002DF840 /* YWLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B2830F1E9F5DCD002DF840 /* YWLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWLiveUITests.swift; sourceTree = "<group>"; };
 		F2B283111E9F5DCD002DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B2833E1E9F6104002DF840 /* YWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YWBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,7 @@
 		F2B282F91E9F5DCD002DF840 /* YWLive */ = {
 			isa = PBXGroup;
 			children = (
-				F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */,
-				F2B282FC1E9F5DCD002DF840 /* ViewController.swift */,
-				F2B282FE1E9F5DCD002DF840 /* Main.storyboard */,
-				F2B283011E9F5DCD002DF840 /* Assets.xcassets */,
-				F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */,
-				F2B283061E9F5DCD002DF840 /* Info.plist */,
+				F2B2831A1E9F602B002DF840 /* Classes */,
 			);
 			path = YWLive;
 			sourceTree = "<group>";
@@ -94,6 +89,272 @@
 				F2B283111E9F5DCD002DF840 /* Info.plist */,
 			);
 			path = YWLiveUITests;
+			sourceTree = "<group>";
+		};
+		F2B2831A1E9F602B002DF840 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */,
+				F2B2833D1E9F60EA002DF840 /* Base */,
+				F2B2831B1E9F602B002DF840 /* Main(主界面) */,
+				F2B283351E9F602B002DF840 /* NetManger */,
+				F2B283361E9F602B002DF840 /* Others */,
+				F2B283381E9F602B002DF840 /* ThirdSDK */,
+				F2B283391E9F602B002DF840 /* Utility */,
+				F2B283371E9F602B002DF840 /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2B2831B1E9F602B002DF840 /* Main(主界面) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283211E9F602B002DF840 /* Launch(开始直播) */,
+				F2B283261E9F602B002DF840 /* Live(日常) */,
+				F2B2832B1E9F602B002DF840 /* Me(我的) */,
+				F2B283301E9F602B002DF840 /* Show(看直播) */,
+			);
+			name = "Main(主界面)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F2B283211E9F602B002DF840 /* Launch(开始直播) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283221E9F602B002DF840 /* Controller */,
+				F2B283231E9F602B002DF840 /* Model */,
+				F2B283241E9F602B002DF840 /* Others */,
+				F2B283251E9F602B002DF840 /* View */,
+			);
+			name = "Launch(开始直播)";
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F2B283221E9F602B002DF840 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2B283231E9F602B002DF840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2B283241E9F602B002DF840 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2B283251E9F602B002DF840 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B283261E9F602B002DF840 /* Live(日常) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283271E9F602B002DF840 /* Controller */,
+				F2B283281E9F602B002DF840 /* Model */,
+				F2B283291E9F602B002DF840 /* Others */,
+				F2B2832A1E9F602B002DF840 /* View */,
+			);
+			name = "Live(日常)";
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F2B283271E9F602B002DF840 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2B283281E9F602B002DF840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2B283291E9F602B002DF840 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2B2832A1E9F602B002DF840 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B2832B1E9F602B002DF840 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2832C1E9F602B002DF840 /* Controller */,
+				F2B2832D1E9F602B002DF840 /* Model */,
+				F2B2832E1E9F602B002DF840 /* Others */,
+				F2B2832F1E9F602B002DF840 /* View */,
+			);
+			name = "Me(我的)";
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F2B2832C1E9F602B002DF840 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2B2832D1E9F602B002DF840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2B2832E1E9F602B002DF840 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2B2832F1E9F602B002DF840 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B283301E9F602B002DF840 /* Show(看直播) */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283311E9F602B002DF840 /* Controller */,
+				F2B283321E9F602B002DF840 /* Model */,
+				F2B283331E9F602B002DF840 /* Others */,
+				F2B283341E9F602B002DF840 /* View */,
+			);
+			name = "Show(看直播)";
+			path = Show;
+			sourceTree = "<group>";
+		};
+		F2B283311E9F602B002DF840 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2B283321E9F602B002DF840 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2B283331E9F602B002DF840 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2B283341E9F602B002DF840 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2B283351E9F602B002DF840 /* NetManger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetManger;
+			sourceTree = "<group>";
+		};
+		F2B283361E9F602B002DF840 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283401E9F6285002DF840 /* Extension */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F2B283371E9F602B002DF840 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2833C1E9F6056002DF840 /* Images */,
+				F2B2833B1E9F603D002DF840 /* config */,
+				F2B2833A1E9F6037002DF840 /* xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F2B283381E9F602B002DF840 /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		F2B283391E9F602B002DF840 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F2B2833A1E9F6037002DF840 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				F2B282FE1E9F5DCD002DF840 /* Main.storyboard */,
+				F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		F2B2833B1E9F603D002DF840 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283061E9F5DCD002DF840 /* Info.plist */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		F2B2833C1E9F6056002DF840 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F2B283011E9F5DCD002DF840 /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F2B2833D1E9F60EA002DF840 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2833E1E9F6104002DF840 /* YWBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F2B283401E9F6285002DF840 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B282FD1E9F5DCD002DF840 /* ViewController.swift in Sources */,
 				F2B282FB1E9F5DCD002DF840 /* AppDelegate.swift in Sources */,
+				F2B2833F1E9F6104002DF840 /* YWBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +490,7 @@
 				F2B282FF1E9F5DCD002DF840 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */ = {
@@ -237,6 +499,7 @@
 				F2B283041E9F5DCD002DF840 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -270,6 +533,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -288,6 +552,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -318,6 +583,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -329,6 +595,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -337,11 +604,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = YWLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -349,11 +619,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = YWLive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -402,6 +675,7 @@
 				F2B283161E9F5DCD002DF840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2B283171E9F5DCD002DF840 /* Build configuration list for PBXNativeTarget "YWLiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +684,7 @@
 				F2B283191E9F5DCD002DF840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
