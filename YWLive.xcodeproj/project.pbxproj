@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B282FB1E9F5DCD002DF840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */; };
+		F2B282FD1E9F5DCD002DF840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B282FC1E9F5DCD002DF840 /* ViewController.swift */; };
+		F2B283001E9F5DCD002DF840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B282FE1E9F5DCD002DF840 /* Main.storyboard */; };
+		F2B283021E9F5DCD002DF840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B283011E9F5DCD002DF840 /* Assets.xcassets */; };
+		F2B283051E9F5DCD002DF840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */; };
+		F2B283101E9F5DCD002DF840 /* YWLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B2830F1E9F5DCD002DF840 /* YWLiveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B2830C1E9F5DCD002DF840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B282EF1E9F5DCC002DF840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B282F61E9F5DCC002DF840;
+			remoteInfo = YWLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2B282F71E9F5DCD002DF840 /* YWLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B282FC1E9F5DCD002DF840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B282FF1E9F5DCD002DF840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2B283011E9F5DCD002DF840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B283041E9F5DCD002DF840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2B283061E9F5DCD002DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B2830B1E9F5DCD002DF840 /* YWLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B2830F1E9F5DCD002DF840 /* YWLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWLiveUITests.swift; sourceTree = "<group>"; };
+		F2B283111E9F5DCD002DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B282F41E9F5DCC002DF840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B283081E9F5DCD002DF840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B282EE1E9F5DCC002DF840 = {
+			isa = PBXGroup;
+			children = (
+				F2B282F91E9F5DCD002DF840 /* YWLive */,
+				F2B2830E1E9F5DCD002DF840 /* YWLiveUITests */,
+				F2B282F81E9F5DCD002DF840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B282F81E9F5DCD002DF840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B282F71E9F5DCD002DF840 /* YWLive.app */,
+				F2B2830B1E9F5DCD002DF840 /* YWLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B282F91E9F5DCD002DF840 /* YWLive */ = {
+			isa = PBXGroup;
+			children = (
+				F2B282FA1E9F5DCD002DF840 /* AppDelegate.swift */,
+				F2B282FC1E9F5DCD002DF840 /* ViewController.swift */,
+				F2B282FE1E9F5DCD002DF840 /* Main.storyboard */,
+				F2B283011E9F5DCD002DF840 /* Assets.xcassets */,
+				F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */,
+				F2B283061E9F5DCD002DF840 /* Info.plist */,
+			);
+			path = YWLive;
+			sourceTree = "<group>";
+		};
+		F2B2830E1E9F5DCD002DF840 /* YWLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B2830F1E9F5DCD002DF840 /* YWLiveUITests.swift */,
+				F2B283111E9F5DCD002DF840 /* Info.plist */,
+			);
+			path = YWLiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B282F61E9F5DCC002DF840 /* YWLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B283141E9F5DCD002DF840 /* Build configuration list for PBXNativeTarget "YWLive" */;
+			buildPhases = (
+				F2B282F31E9F5DCC002DF840 /* Sources */,
+				F2B282F41E9F5DCC002DF840 /* Frameworks */,
+				F2B282F51E9F5DCC002DF840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWLive;
+			productName = YWLive;
+			productReference = F2B282F71E9F5DCD002DF840 /* YWLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B2830A1E9F5DCD002DF840 /* YWLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B283171E9F5DCD002DF840 /* Build configuration list for PBXNativeTarget "YWLiveUITests" */;
+			buildPhases = (
+				F2B283071E9F5DCD002DF840 /* Sources */,
+				F2B283081E9F5DCD002DF840 /* Frameworks */,
+				F2B283091E9F5DCD002DF840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B2830D1E9F5DCD002DF840 /* PBXTargetDependency */,
+			);
+			name = YWLiveUITests;
+			productName = YWLiveUITests;
+			productReference = F2B2830B1E9F5DCD002DF840 /* YWLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B282EF1E9F5DCC002DF840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					F2B282F61E9F5DCC002DF840 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F2B2830A1E9F5DCD002DF840 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2B282F61E9F5DCC002DF840;
+					};
+				};
+			};
+			buildConfigurationList = F2B282F21E9F5DCC002DF840 /* Build configuration list for PBXProject "YWLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B282EE1E9F5DCC002DF840;
+			productRefGroup = F2B282F81E9F5DCD002DF840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B282F61E9F5DCC002DF840 /* YWLive */,
+				F2B2830A1E9F5DCD002DF840 /* YWLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B282F51E9F5DCC002DF840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B283051E9F5DCD002DF840 /* LaunchScreen.storyboard in Resources */,
+				F2B283021E9F5DCD002DF840 /* Assets.xcassets in Resources */,
+				F2B283001E9F5DCD002DF840 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B283091E9F5DCD002DF840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B282F31E9F5DCC002DF840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B282FD1E9F5DCD002DF840 /* ViewController.swift in Sources */,
+				F2B282FB1E9F5DCD002DF840 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B283071E9F5DCD002DF840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B283101E9F5DCD002DF840 /* YWLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B2830D1E9F5DCD002DF840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B282F61E9F5DCC002DF840 /* YWLive */;
+			targetProxy = F2B2830C1E9F5DCD002DF840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2B282FE1E9F5DCD002DF840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B282FF1E9F5DCD002DF840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2B283031E9F5DCD002DF840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B283041E9F5DCD002DF840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B283121E9F5DCD002DF840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B283131E9F5DCD002DF840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B283151E9F5DCD002DF840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YWLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2B283161E9F5DCD002DF840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YWLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2B283181E9F5DCD002DF840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YWLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YWLive;
+			};
+			name = Debug;
+		};
+		F2B283191E9F5DCD002DF840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = YWLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ruofeng.YWLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YWLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B282F21E9F5DCC002DF840 /* Build configuration list for PBXProject "YWLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B283121E9F5DCD002DF840 /* Debug */,
+				F2B283131E9F5DCD002DF840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B283141E9F5DCD002DF840 /* Build configuration list for PBXNativeTarget "YWLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B283151E9F5DCD002DF840 /* Debug */,
+				F2B283161E9F5DCD002DF840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2B283171E9F5DCD002DF840 /* Build configuration list for PBXNativeTarget "YWLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B283181E9F5DCD002DF840 /* Debug */,
+				F2B283191E9F5DCD002DF840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B282EF1E9F5DCC002DF840 /* Project object */;
+}
